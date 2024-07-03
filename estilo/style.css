@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: #f0f5fd;
+}
+
+i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*sidebar styles*/
+
+.left-section {
+  background: #fff;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 25px 10px;
+  transition: all .3s ease;
+}
+
+.left-section h2 {
+  color: #364670;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.left-section .sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left-section .sidebar .side-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-section .sidebar .item, 
+.left-section .sign-out {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #364670;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.left-section .sidebar .item.active h3,
+.left-section .sidebar .item.active i,
+.left-section .sidebar .item:hover {
+  color: #1976d2;
+}
+
+.left-section .sign-out:hover {
+  color: #ec4747;
+}
+
+.left-section .sidebar .item h3,
+.left-section .sign-out h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.left-section .sidebar .item i,
+.sidebar .sign-out i {
+  font-size: 20px;
+}
