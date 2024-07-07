@@ -1,0 +1,223 @@
+@media screen and (max-width: 1230px) {
+  .left-section {
+    width: 80px;
+    left: 0;
+  }
+
+  .left-section h2 {
+    font-size: 17px;
+  }
+
+  .left-section .sidebar .side-content .item,
+  .left-section .sidebar .sign-out {
+    justify-content: center;
+  }
+
+  .left-section .sidebar .side-content .item h3,
+  .left-section .sidebar .sign-out h3 {
+    display: none;
+  }
+
+  .left-section .sidebar .side-content .item i,
+  .left-section .sidebar .sign-out i {
+    font-size: 20px;
+  }
+
+  .main {
+    margin-left: 80px;
+  }
+
+  .main .quick-acess {
+    justify-content: space-between;
+  }
+
+  .main .quick-acess .item {
+    width: 23%;
+  }
+
+  .main .quick-acess .item i {
+    font-size: 36px;
+  }
+
+  .main .quick-acess .item h5 {
+    font-size: 16px;
+  }
+
+  .main .quick-acess .item p,
+  .right-section .profile .info .account p {
+    font-size: 12px;
+  }
+
+  .right-section .widgets .disk {
+    width: 270px;
+    height: 270px;
+  }
+
+  .right-section .widgets .disk .progress .progress-bar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .right-section .widgets .disk .info h5 {
+    font-size: 18px;
+  }
+
+  .right-section .widgets .bottom button {
+    font-size: 17px;
+    padding: 12px;
+  }
+
+  .right-section
+  .widgets .bottom .premium .title h5 {
+    font-size: 17px;
+  }
+
+  .right-section .widgets .bottom .premium .title i {
+    font-size: 26px;
+  }
+
+  .right-section .widgets .bottom .premium p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .left-section {
+    width: 160px;
+    left: -160px;
+    z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-section .sidebar .side-content .item,
+  .left-section .sidebar .sign-out {
+    justify-content: start;
+  }
+
+  .left-section .sidebar .side-content .item h3,
+  .left-section .sidebar .sign-out h3 {
+    display: block;
+  }
+
+  .left-section .sidebar .side-content .item i,
+  .left-section .sidebar .sign-out i {
+    font-size: 22px;
+  }
+
+  .main,
+  .right-section {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .main .header {
+    gap: 10px;
+  }
+
+  .main .header .icon-btn i#menu-btn {
+    display: block;
+  }
+
+  .main .quick-acess .item p {
+    text-align: center;
+  }
+
+  .main table tbody tr .td.name,
+  .main table tbody tr .td.extencion,
+  .main table tbody tr .td.size {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .main   {
+    padding: 26px 15px 0;
+  }
+
+  .main .header {
+    justify-content: start;
+  }
+
+  .main .header .search {
+    width: 36%;
+  }
+
+  .right-section .profile {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .right-section .widgets {
+    margin-top: 30px;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .right-section .widgets .disk {
+    width: 48%;
+    margin-top: 0;
+  }
+
+  .right-section .widgets .bottom {
+    height: 100%;
+    gap: 30px;
+  }
+
+  .right-section .widgets .bottom button {
+    margin: 0;
+  }
+
+  .right-section .widgets .bottom .premium {
+    height: 100%
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .main {
+    padding: 100px 15px 0;
+  }
+
+  .main .header {
+    justify-content: space-between;
+  }
+
+  .main .header .search {
+    width: 68%;
+  }
+
+  .main .quick-acess {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .main .quick-acess .item {
+    width: 45%;
+  }
+
+  .right-section .profile {
+    width: calc(100% - 30px);
+  }
+
+  .right-section .widgets {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .right-section .widgets .disk,
+  .right-section .widgets .bottom {
+    width: 50%;
+  }
+
+  .right-section .widgets .disk .info h5 {
+    font-size: 14px;
+  }
+
+  .right-section .widgets .disk .info p {
+    font-size: 13px;
+  }
+}
